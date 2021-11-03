@@ -15,7 +15,6 @@ body{
     cursor: pointer;
     padding: 0 20px;
     margin-bottom: 20px;
-    display: inline-table;
     width: 31%;
 }
 .card-image{
@@ -36,8 +35,35 @@ body{
     font-size: 40px;
     top: 40px;
     right: 0;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-color: #fff;
-    padding: 5px 0 0 18px;
+    text-align: center;
+}
+.card-image:hover .img2{
+    display: block;
+}
+.card-image:hover .img1{
+    display: none;
+}
+.card-promo{
+    position: absolute;
+    bottom: 30px;
+}
+.sconto{
+    padding: 5px 5px;
+    background-color: rgb(180, 3, 3);
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.sostenibilità{
+    padding: 5px 5px;
+    background-color: rgb(14, 124, 0);
+    display: inline-block;    
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
 }
